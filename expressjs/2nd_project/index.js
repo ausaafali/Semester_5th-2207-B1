@@ -69,7 +69,7 @@ let app = exp();
 // use routing file
 // app.use('/health', healthInfo)
 // app.use('/personal', personalRecord)
-// app.use('/user', user)
+// app.use('/user', user) 
 
 db().then(() => {
     add_personal();
